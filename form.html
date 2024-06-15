@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br>
+
+
+        <h3>choose a fav_language</h3>
+        <input type="radio" id="C" name="fav_language" value="HTML">
+        <label for="html">C</label><br>
+        <input type="radio" id="C++" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="java" name="fav_language" value="JavaScript">
+        <label for="javascript">Java</label>
+        <br>
+
+
+        <h3>checkbox</h3>
+        <input type="checkbox" id="Window" name="Window" value="Window">
+        <label for="vehicle1"> Window</label><br>
+        <input type="checkbox" id="ubuntu" name="ubuntu" value="ubuntu">
+        <label for="vehicle2"> ubuntu</label><br>
+        <input type="checkbox" id="Mac" name="Mac" value="Mac">
+        <label for="vehicle3"> Mac</label>
+        <br>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

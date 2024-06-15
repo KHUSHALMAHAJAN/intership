@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(16, 16, 101);
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.name {
+    width: 80%;
+    text-align: center;
+    font-size: 130px;
+    font-style: italic;
+    text-decoration: solid;
+    text-decoration: underline;
+    color: rgb(246, 200, 13);
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+nav {
+    margin: 30px;
+    text-align: right;
+    font-size: 40px;
+}
+
+nav a {
+    padding-right: 80px;
+    color: yellow;
+}
+
+nav a:hover {
+    font-size: 50px;
+    text-decoration: solid;
+    color: rgb(251, 234, 8);
+}
+
+.frist {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.information {
+    margin: 30px;
+    margin-left: 9%;
+}
+
+.frist img {
+    width: 300px;
+    height: 300px;
+    margin: 3%;
+    margin-right: 9%;
+    border-radius: 5%;
+}
+.information .subinfo{
+    font-size: 25px;
+    color: rgb(238, 140, 13);
+}
+h1{
+    color: rgb(7, 241, 104);
+    font-size: 40px;
+}
+.second{
+    display: flex;
+}
+.fristbox{
+    margin: 30px;
+    border: 2px solid pink;
+    padding: 10px;
+    border-radius: 5%;
+}
+.fristbox img{
+    width: 240px;
+    height: 240px;
+    border-radius: 5%;
+}
+.name1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(241, 219, 23);
+    text-decoration: none;
+}
+.price1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(25, 167, 151);
+    text-decoration: none;
+}
+.depr{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(25, 167, 151);
+    text-decoration: none;
+}
+.submit{
+    background-color: rgb(110, 110, 200);
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10%;
+    pointer-events:painted
+}
+input{
+    font-size: 20px;
+}
+input:hover{
+    font-size: 30px;
+}
+.submit:hover{
+    font-size: 30px;
+}
+footer{
+    font-size: 25px;
+    background-color: aquamarine;
+}
+footer a img{
+    width: 50px;
+    width: 50px;
+}
+footer a{
+    margin: 90px;
+}
