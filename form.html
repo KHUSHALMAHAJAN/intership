@@ -5,42 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        label{
+            font-size: 18px;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
+        .submit{
+            color: blue;
+            border:  0;
+            background-color: rgb(99, 206, 99);
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-    <form action="submit_form.php" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+    <form action="thank.html" method="post">
         <br>
+        <label for="name">First Name :- </label>
+        <input type="text" id="name" name="name" placeholder="Enter you name">
+        <br><br>
+        <label for="name">Middle Name :- </label>
+        <input type="text" id="Middle" name="Middle" placeholder="Enter you Middle name">
+        <br><br>
+        <label for="name">Last Name :- </label>
+        <input type="text" id="Last" name="Last" placeholder="Enter you Last name">
+        <br><br>
+        <label for="name">Mother Name :- </label>
+        <input type="text" id="Mother" name="Mother" placeholder="Enter you Mother name">
+        <br><br>
+        <label for="name">Phone no :- </label>
+        <input type="number" id="Phone" name="Phone" placeholder="Enter you Phone no">
+        <br><br>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" placeholder="Enter you email">
+        <br><br>
+        <label for="birth-date">birth date</label>
+        <input type="date" id="birth" name="birth">
+        <br><br>
+
+        <h3>work in opration system</h3>
+        <input type="radio" id="Window" name="os" value="Window">
+        <label for="html">Window</label><br>
+        <input type="radio" id="Ubuntu" name="os" value="Ubuntu">
+        <label for="css">Ubuntu</label><br>
+        <input type="radio" id="Mac" name="os" value="Mac">
+        <label for="javascript">Mac</label>
         <br>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+
+
+        <h3>your favourite language</h3>
+        <input type="checkbox" id="c" name="c" value="c">
+        <label for="vehicle1"> C</label><br>
+        <input type="checkbox" id="C++" name="C++" value="C++">
+        <label for="vehicle2"> C++</label><br>
+        <input type="checkbox" id="java" name="java" value="java">
+        <label for="vehicle3"> Java</label><br>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="vehicle3"> Html</label><br>
+        <input type="checkbox" id="CSS" name="CSS" value="CSS">
+        <label for="vehicle3"> CSS</label><br>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript">
+        <label for="vehicle3"> Javascript</label><br>
+        <br>
+
         <br>
 
 
-        <h3>choose a fav_language</h3>
-        <input type="radio" id="C" name="fav_language" value="HTML">
-        <label for="html">C</label><br>
-        <input type="radio" id="C++" name="fav_language" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="java" name="fav_language" value="JavaScript">
-        <label for="javascript">Java</label>
-        <br>
+        <label for="states">your states</label>
+            <select id="states" name="states" required>
+                <option value="" disabled selected>Select your states</option>
+                <option value="AndhraPradesh">Andhra Pradesh</option>
+                <option value="ArunachalPradesh">Arunachal Pradesh</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="HimachalPradesh">Himachal Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Uttar Pradesh">Uttar Pradesh </option>
+            </select>
 
+            <br>
+            <br>
+        <input type="submit" class="submit" value="Submit">
 
-        <h3>checkbox</h3>
-        <input type="checkbox" id="Window" name="Window" value="Window">
-        <label for="vehicle1"> Window</label><br>
-        <input type="checkbox" id="ubuntu" name="ubuntu" value="ubuntu">
-        <label for="vehicle2"> ubuntu</label><br>
-        <input type="checkbox" id="Mac" name="Mac" value="Mac">
-        <label for="vehicle3"> Mac</label>
-        <br>
-
-        <br>
-        <input type="submit" value="Submit">
     </form>
 </body>
 
